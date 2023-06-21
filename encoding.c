@@ -45,7 +45,7 @@
 #include "private/error.h"
 
 #ifdef LIBXML_ICU_ENABLED
-#include <unicode/ucnv.h>
+#include <icu.h>
 /* Size of pivot buffer, same as icu/source/common/ucnv.cpp CHUNK_SIZE */
 #define ICU_PIVOT_BUF_SIZE 1024
 typedef struct _uconv_t uconv_t;
