@@ -70,7 +70,7 @@ LIBS = $(LIBS) iconv.lib
 !if "$(STATIC)" == "1"
 LIBS = $(LIBS) advapi32.lib sicuuc.lib sicuin.lib sicudt.lib
 !else
-LIBS = $(LIBS) icu.lib
+LIBS = $(LIBS) icuuc.lib icuin.lib icudt.lib
 !endif
 !endif
 !if "$(WITH_ZLIB)" == "1"
